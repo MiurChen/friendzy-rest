@@ -1,0 +1,10 @@
+package com.friendzyServer.core.pojo;
+
+import lombok.Data;
+
+@Data
+public class Result {
+	private boolean statu;
+	private String message;
+
+}
